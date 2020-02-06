@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/star-wars/static/css/main.471b4ea9.chunk.css",
-    "main.js": "/star-wars/static/js/main.92e92a01.chunk.js",
-    "main.js.map": "/star-wars/static/js/main.92e92a01.chunk.js.map",
+    "main.js": "/star-wars/static/js/main.220adeb2.chunk.js",
+    "main.js.map": "/star-wars/static/js/main.220adeb2.chunk.js.map",
     "runtime-main.js": "/star-wars/static/js/runtime-main.84ff268f.js",
     "runtime-main.js.map": "/star-wars/static/js/runtime-main.84ff268f.js.map",
     "static/js/2.8f6a3585.chunk.js": "/star-wars/static/js/2.8f6a3585.chunk.js",
     "static/js/2.8f6a3585.chunk.js.map": "/star-wars/static/js/2.8f6a3585.chunk.js.map",
     "index.html": "/star-wars/index.html",
-    "precache-manifest.5156121f81528f6e722b19d01d6e4783.js": "/star-wars/precache-manifest.5156121f81528f6e722b19d01d6e4783.js",
+    "precache-manifest.63b25022520625f2cf809958f91f159f.js": "/star-wars/precache-manifest.63b25022520625f2cf809958f91f159f.js",
     "service-worker.js": "/star-wars/service-worker.js",
     "static/css/main.471b4ea9.chunk.css.map": "/star-wars/static/css/main.471b4ea9.chunk.css.map",
     "static/js/2.8f6a3585.chunk.js.LICENSE.txt": "/star-wars/static/js/2.8f6a3585.chunk.js.LICENSE.txt",
@@ -18,6 +18,6 @@
     "static/js/runtime-main.84ff268f.js",
     "static/js/2.8f6a3585.chunk.js",
     "static/css/main.471b4ea9.chunk.css",
-    "static/js/main.92e92a01.chunk.js"
+    "static/js/main.220adeb2.chunk.js"
   ]
 }
