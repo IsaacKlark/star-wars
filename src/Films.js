@@ -29,7 +29,7 @@ const Films = ({
 
   const searchFilms = (e) => {
     const filteredFilms = [...films].filter(film => {
-      return film.title.toLowerCase().includes(e.target.value);
+      return film.title.toLowerCase().includes(e.target.value.toLowerCase());
     });
 
     search(filteredFilms);
