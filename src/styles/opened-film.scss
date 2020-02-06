@@ -1,0 +1,113 @@
+@font-face {
+    font-family: STARWARS;
+    src: url(../fonts/STARWARS.ttf);
+}
+
+.opened-film {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+
+    &__back {
+        color: lightgray;
+        font-family: 'STARWARS';
+        font-size: 5vh;
+        margin-top: 4vh;
+        text-decoration: none;
+    }
+
+    &__back:hover {
+        color: yellow;
+    }
+
+    &__section {
+        width: 90vw;
+        background-color: rgba(0, 0, 0, 0.4);
+        margin-top: 5vh;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+        padding: 3vh;
+    }
+
+    &__title {
+        font-size: 5vh;
+        color: yellow;
+        margin: 2vh 0;
+    }
+
+    &__crawl {
+        margin: 0;
+        font-size: 3vh;
+        color: white;
+        line-height: 2em; 
+    }
+
+    &__authors-and-date {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: justify;
+            -ms-flex-pack: justify;
+                justify-content: space-between;
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+        width: 100%;
+        margin-top: 0;
+        margin-top: 3vh;
+    }
+
+    &__create-info {
+        font-size: 2vh;
+        color: yellow;
+        font-family: Arial, Helvetica, sans-serif;
+        margin-top: 0;
+    }
+
+    &__details {
+        width: 88vw;
+        font-size: 2vh;
+        color: yellow;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        font-family: Arial, Helvetica, sans-serif;
+        -webkit-box-pack: start;
+            -ms-flex-pack: start;
+                justify-content: flex-start;
+    }
+
+    &__details ul {
+        list-style: none;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+        color: lightgray;
+        padding-left: 10px;
+    }
+
+    &__details ul li {
+        margin: 0 1vh;
+    }
+
+    &__loading {
+        padding-left: 10px;
+    }
+}

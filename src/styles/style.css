@@ -1,0 +1,239 @@
+.films__ul {
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  width: 100%;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding: 0;
+  margin-top: 0;
+}
+.films__ul li {
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 300px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  padding: 15px;
+}
+.films__a {
+  color: #9f9d9b;
+  text-decoration: none;
+  font-size: 4vh;
+}
+.films__a:hover {
+  color: yellow;
+  cursor: pointer;
+}
+.films__form {
+  width: 300px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+.films__input {
+  font-size: 4vh;
+  width: 150px;
+}
+.films__button {
+  background-color: rgba(255, 255, 255, 0.4);
+  border: 0;
+  outline: 0;
+  font-size: 4vh;
+}
+.films__button:hover {
+  cursor: pointer;
+  background-color: white;
+}
+
+@font-face {
+  font-family: STARWARS;
+  src: url(../fonts/STARWARS.ttf);
+}
+.opened-film {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+.opened-film__back {
+  color: lightgray;
+  font-family: "STARWARS";
+  font-size: 5vh;
+  margin-top: 4vh;
+  text-decoration: none;
+}
+.opened-film__back:hover {
+  color: yellow;
+}
+.opened-film__section {
+  width: 90vw;
+  background-color: rgba(0, 0, 0, 0.4);
+  margin-top: 5vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding: 3vh;
+}
+.opened-film__title {
+  font-size: 5vh;
+  color: yellow;
+  margin: 2vh 0;
+}
+.opened-film__crawl {
+  margin: 0;
+  font-size: 3vh;
+  color: white;
+  line-height: 2em;
+}
+.opened-film__authors-and-date {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  width: 100%;
+  margin-top: 0;
+  margin-top: 3vh;
+}
+.opened-film__create-info {
+  font-size: 2vh;
+  color: yellow;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 0;
+}
+.opened-film__details {
+  width: 88vw;
+  font-size: 2vh;
+  color: yellow;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-family: Arial, Helvetica, sans-serif;
+  -webkit-box-pack: start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+}
+.opened-film__details ul {
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  color: lightgray;
+  padding-left: 10px;
+}
+.opened-film__details ul li {
+  margin: 0 1vh;
+}
+.opened-film__loading {
+  padding-left: 10px;
+}
+
+@font-face {
+  font-family: STARWARS;
+  src: url(../fonts/STARWARS.ttf);
+}
+body {
+  background-image: url("../images/star_wars.jpeg");
+  background-size: auto;
+  font-family: "STARWARS";
+  width: 100%;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  background-color: black;
+  background-repeat: no-repeat;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.loading {
+  font-size: 10vh;
+  text-align: center;
+  color: yellow;
+  font-weight: 200;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.starwars__h1 {
+  font-family: "STARWARS";
+  font-size: 10vh;
+  text-align: center;
+  color: yellow;
+}
+
+.ErrorWrap {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+.Error {
+  font-family: "STARWARS";
+  font-size: 9vh;
+  text-align: center;
+  color: red;
+}
+
+.try-again {
+  background-color: rgba(255, 255, 0, 0.4);
+  font-family: "STARWARS";
+  border: 0;
+  padding: 3vh;
+  font-size: 6vh;
+  outline: 0;
+}
+
+.try-again:hover {
+  cursor: pointer;
+  background-color: yellow;
+}
+
+/*# sourceMappingURL=style.css.map */
