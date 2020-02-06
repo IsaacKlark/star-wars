@@ -1,15 +1,19 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { connect } from 'react-redux';
 import { useLocation, Link } from 'react-router-dom';
 import CharactersFromUrl from './CharactersFromUrl';
+import * as storeFuncs from './store/store';
 
-const OpenedFilm = ({ films }) => {
-
+const OpenedFilm = ({ films, getURL }) => {
     const location = useLocation();
     const searchParams = new URLSearchParams(location.search);
     const filteredFilm = films.filter(film => (
         film.title === searchParams.get('film')
     ));
+
+    useEffect(() => {
+        getURL();
+    }, [])
 
     return (
         <div className="opened-film">
@@ -53,4 +57,8 @@ const getAPI = state => ({
     films: state.films,
 })
 
-export default connect(getAPI)(OpenedFilm);
+const storesFuncs = {
+    getURL: storeFuncs.getURL,
+  }
+
+export default connect(getAPI, storesFuncs)(OpenedFilm);
